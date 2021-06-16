@@ -26,7 +26,7 @@ class WelcomePageDesk extends StatelessWidget {
             height: 30,
           ),
           Text(
-            "I help out Spider-man with his web slingers, or you could call me a web designer.",
+            "I help out Spider-man with his web slingers, or you could call me a Full Stack Developer.",
             style: TextStyle(
               fontSize: 21,
               height: 1.7,
