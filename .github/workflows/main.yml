@@ -11,8 +11,8 @@ jobs:
   
   #Flutter Command
     - uses: subosito/flutter-action@v1
-        with:
-          channel: 'dev'
+      with:
+        channel: 'dev'
 
 
   #Build Web
