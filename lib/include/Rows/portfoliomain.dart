@@ -12,14 +12,14 @@ class ProDesk extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Portfolio 🏆',
+            'Portfolio',
             style: TextStyle(fontWeight: FontWeight.w600, fontSize: 50),
           ),
           SizedBox(
             height: 10,
           ),
           Text(
-            'Portfolio, CERTIFICATIONS AND SOME COOL STUFF THAT I HAVE DONE !',
+            'Portfolio SOME COOL STUFF THAT I HAVE DONE !',
             style: TextStyle(color: Colors.grey, fontSize: 22),
           ),
           SizedBox(
