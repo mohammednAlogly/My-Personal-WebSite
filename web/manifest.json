@@ -1,11 +1,11 @@
 {
-    "name": "DeveloperFolio",
-    "short_name": "DeveloperFolio",
+    "name": "MohammedAlojile",
+    "short_name": "MohammedAlojile",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#f2ec2d",
+    "theme_color": "#0f2ec2d",
+    "description": "an Ambition Full Stack Developer",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
