@@ -277,7 +277,7 @@ class WelcomePageTab extends StatelessWidget {
             ),
             Center(
               child: Text(
-                "I help out Spider-man with his web slingers, or you could call me a web designer.",
+                "I help out Spider-man with his web slingers, or you could call me a Full Stack Developer.",
                 style: TextStyle(
                   fontSize: 20,
                   fontFamily: 'Kadisoka',
@@ -525,7 +525,7 @@ class WelcomePageMob extends StatelessWidget {
             ),
             Center(
               child: Text(
-                "I help out Spider-man with his web slingers, or you could call me a web designer.",
+                "I help out Spider-man with his web slingers, or you could call me a Full Stack Developer.",
                 style: TextStyle(
                     fontSize: 16, height: 1.7, fontFamily: 'Kadisoka'),
                 textAlign: TextAlign.center,
