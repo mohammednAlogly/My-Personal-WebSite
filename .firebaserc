@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "mohammed-alojile",
+    "build/web": "mohammed-alojile"
+  }
+}
