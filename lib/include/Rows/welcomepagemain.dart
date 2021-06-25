@@ -46,62 +46,14 @@ class WelcomePageDesk extends StatelessWidget {
                     height: 60,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.facebook,
-                        color: Colors.blue,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://www.facebook.com/naveenjujaray"]);
-                      },
-                    )),
-              ),
-              Expanded(
-                child: Container(
-                  width: 60,
-                  height: 60,
-                  child: GestureDetector(
-                    child: Icon(
-                      FontAwesomeIcons.twitter,
-                      color: Colors.lightBlue,
-                      size: 40,
-                    ),
-                    onTap: () {
-                      js.context.callMethod(
-                          "open", ["https://twitter.com/naveenjujaray"]);
-                    },
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Container(
-                    width: 60,
-                    height: 60,
-                    child: IconButton(
-                      icon: Icon(
                         FontAwesomeIcons.linkedin,
                         color: Color.fromRGBO(40, 103, 178, 1),
                         size: 40,
                       ),
                       onPressed: () {
-                        js.context.callMethod("open",
-                            ["https://www.linkedin.com/in/naveenjujaray"]);
-                      },
-                    )),
-              ),
-              Expanded(
-                child: Container(
-                    width: 60,
-                    height: 60,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.bloggerB,
-                        color: Colors.red,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://naveenjujaray.js.org"]);
+                        js.context.callMethod("open", [
+                          "https://www.linkedin.com/in/mohammed-alojile-708a36100/"
+                        ]);
                       },
                     )),
               ),
@@ -116,7 +68,7 @@ class WelcomePageDesk extends StatelessWidget {
                       ),
                       onPressed: () {
                         js.context.callMethod(
-                            "open", ["https://www.github.com/naveenjujaray"]);
+                            "open", ["https://github.com/mohammednAlogly"]);
                       },
                     )),
               ),
@@ -126,59 +78,12 @@ class WelcomePageDesk extends StatelessWidget {
                     height: 60,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.gitlab,
-                        color: Colors.orange,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://www.gitlab.com/naveenjujaray"]);
-                      },
-                    )),
-              ),
-              Expanded(
-                child: Container(
-                    width: 60,
-                    height: 60,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.medium,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://medium.com/@naveenjujaray"]);
-                      },
-                    )),
-              ),
-              Expanded(
-                child: Container(
-                    width: 60,
-                    height: 60,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.dev,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://dev.to/naveenjujaray"]);
-                      },
-                    )),
-              ),
-              Expanded(
-                child: Container(
-                    width: 60,
-                    height: 60,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.reddit,
-                        color: Colors.deepOrangeAccent,
+                        FontAwesomeIcons.instagram,
                         size: 40,
                       ),
                       onPressed: () {
                         js.context.callMethod("open",
-                            ["https://www.reddit.com/user/jujaraynaveen"]);
+                            ["https://www.instagram.com/mohammed_alojile/"]);
                       },
                     )),
               ),
@@ -298,61 +203,14 @@ class WelcomePageTab extends StatelessWidget {
                       height: 60,
                       child: IconButton(
                         icon: Icon(
-                          FontAwesomeIcons.facebook,
-                          color: Colors.blue,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod("open",
-                              ["https://www.facebook.com/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.twitter,
-                          color: Colors.lightBlue,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://twitter.com/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
                           FontAwesomeIcons.linkedin,
                           color: Color.fromRGBO(40, 103, 178, 1),
                           size: 40,
                         ),
                         onPressed: () {
-                          js.context.callMethod("open",
-                              ["https://www.linkedin.com/in/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.bloggerB,
-                          color: Colors.red,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://naveenjujaray.js.org"]);
+                          js.context.callMethod("open", [
+                            "https://www.linkedin.com/in/mohammed-alojile-708a36100/"
+                          ]);
                         },
                       )),
                 ),
@@ -367,7 +225,7 @@ class WelcomePageTab extends StatelessWidget {
                         ),
                         onPressed: () {
                           js.context.callMethod(
-                              "open", ["https://www.github.com/naveenjujaray"]);
+                              "open", ["https://github.com/mohammednAlogly"]);
                         },
                       )),
                 ),
@@ -377,59 +235,12 @@ class WelcomePageTab extends StatelessWidget {
                       height: 60,
                       child: IconButton(
                         icon: Icon(
-                          FontAwesomeIcons.gitlab,
-                          color: Colors.orange,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://www.gitlab.com/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.medium,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://medium.com/@naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.dev,
-                          size: 40,
-                        ),
-                        onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://dev.to/naveenjujaray"]);
-                        },
-                      )),
-                ),
-                Expanded(
-                  child: Container(
-                      width: 60,
-                      height: 60,
-                      child: IconButton(
-                        icon: Icon(
-                          FontAwesomeIcons.reddit,
-                          color: Colors.deepOrangeAccent,
+                          FontAwesomeIcons.instagram,
                           size: 40,
                         ),
                         onPressed: () {
                           js.context.callMethod("open",
-                              ["https://www.reddit.com/user/jujaraynaveen"]);
+                              ["https://www.instagram.com/mohammed_alojile/"]);
                         },
                       )),
                 ),
@@ -542,55 +353,14 @@ class WelcomePageMob extends StatelessWidget {
                     height: 55,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.facebook,
+                        FontAwesomeIcons.linkedin,
                         color: Colors.blue,
                         size: 40,
                       ),
                       onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://www.facebook.com/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.twitter,
-                        color: Colors.lightBlue,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://twitter.com/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.linkedin,
-                        color: Color.fromRGBO(40, 103, 178, 1),
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod("open",
-                            ["https://www.linkedin.com/in/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.bloggerB,
-                        color: Colors.red,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://naveenjujaray.js.org"]);
+                        js.context.callMethod("open", [
+                          "https://www.linkedin.com/in/mohammed-alojile-708a36100/"
+                        ]);
                       },
                     )),
                 Container(
@@ -599,30 +369,12 @@ class WelcomePageMob extends StatelessWidget {
                     child: IconButton(
                       icon: Icon(
                         FontAwesomeIcons.github,
+                        color: Colors.lightBlue,
                         size: 40,
                       ),
                       onPressed: () {
                         js.context.callMethod(
-                            "open", ["https://www.github.com/naveenjujaray"]);
-                      },
-                    )),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.gitlab,
-                        color: Colors.orange,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://www.gitlab.com/naveenjujaray"]);
+                            "open", ["https://github.com/mohammednAlogly"]);
                       },
                     )),
                 Container(
@@ -630,39 +382,13 @@ class WelcomePageMob extends StatelessWidget {
                     height: 55,
                     child: IconButton(
                       icon: Icon(
-                        FontAwesomeIcons.medium,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://medium.com/@naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.dev,
-                        size: 40,
-                      ),
-                      onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://dev.to/naveenjujaray"]);
-                      },
-                    )),
-                Container(
-                    width: 55,
-                    height: 55,
-                    child: IconButton(
-                      icon: Icon(
-                        FontAwesomeIcons.reddit,
-                        color: Colors.deepOrangeAccent,
+                        FontAwesomeIcons.instagram,
+                        color: Color.fromRGBO(40, 103, 178, 1),
                         size: 40,
                       ),
                       onPressed: () {
                         js.context.callMethod("open",
-                            ["https://www.reddit.com/user/jujaraynaveen"]);
+                            ["https://www.instagram.com/mohammed_alojile/"]);
                       },
                     )),
               ],
