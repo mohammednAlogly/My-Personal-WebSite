@@ -9,6 +9,9 @@ class WelcomePageDesk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        image: DecorationImage(image: AssetImage('assets/images/back.png')),
+      ),
       width: 600,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
