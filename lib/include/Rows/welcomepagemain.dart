@@ -14,7 +14,7 @@ class WelcomePageDesk extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            "Welcome to my Website",
+            "Hello , Welcome to my WebSite",
             style: TextStyle(
                 fontWeight: FontWeight.bold,
                 height: 1.3,
@@ -26,7 +26,7 @@ class WelcomePageDesk extends StatelessWidget {
             height: 30,
           ),
           Text(
-            "Full Stack Developer.",
+            "I am an ambitious man , who makes awesome websites and mobile apps 😊 ",
             style: TextStyle(
               fontSize: 21,
               height: 1.7,
@@ -168,7 +168,7 @@ class WelcomePageTab extends StatelessWidget {
             ),
             Center(
               child: Text(
-                "Welcome to my Website",
+                "Hello , Welcome to my WebSite",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     height: 1.3,
@@ -182,7 +182,7 @@ class WelcomePageTab extends StatelessWidget {
             ),
             Center(
               child: Text(
-                "Full Stack Developer.",
+                "I am an ambitious man , who makes awesome websites and mobile apps 😊 ",
                 style: TextStyle(
                   fontSize: 20,
                   fontFamily: 'Kadisoka',
@@ -322,7 +322,7 @@ class WelcomePageMob extends StatelessWidget {
             ),
             Center(
               child: Text(
-                "Welcome to my Website",
+                "Hello , Welcome to my WebSite",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     height: 1.3,
@@ -336,7 +336,7 @@ class WelcomePageMob extends StatelessWidget {
             ),
             Center(
               child: Text(
-                "Full Stack Developer.",
+                "I am an ambitious man , who makes awesome websites and mobile apps 😊 ",
                 style: TextStyle(
                     fontSize: 16, height: 1.7, fontFamily: 'Kadisoka'),
                 textAlign: TextAlign.center,
