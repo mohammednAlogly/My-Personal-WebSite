@@ -29,7 +29,7 @@ class WelcomePageDesk extends StatelessWidget {
             height: 30,
           ),
           Text(
-            "I am an ambitious man , who makes awesome websites and mobile apps 😊 ",
+            "I am an ambitious man , who makes awesome websites and mobile apps 😊 .",
             style: TextStyle(
               fontSize: 21,
               height: 1.7,
