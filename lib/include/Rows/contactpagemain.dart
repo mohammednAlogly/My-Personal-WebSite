@@ -85,8 +85,9 @@ class ContactPageDesk extends StatelessWidget {
                         size: 40,
                       ),
                       onPressed: () {
-                        js.context.callMethod("open",
-                            ["https://www.linkedin.com/in/naveenjujaray"]);
+                        js.context.callMethod("open", [
+                          "https://www.linkedin.com/in/mohammed-alojile-708a36100/"
+                        ]);
                       },
                     )),
               ),
@@ -101,7 +102,7 @@ class ContactPageDesk extends StatelessWidget {
                       ),
                       onPressed: () {
                         js.context.callMethod(
-                            "open", ["https://www.github.com/naveenjujaray"]);
+                            "open", ["https://github.com/mohammednalogly"]);
                       },
                     )),
               ),
@@ -115,8 +116,8 @@ class ContactPageDesk extends StatelessWidget {
                         size: 40,
                       ),
                       onPressed: () {
-                        js.context.callMethod(
-                            "open", ["https://www.github.com/naveenjujaray"]);
+                        js.context.callMethod("open",
+                            ["https://www.instagram.com/mohammed_alojile/"]);
                       },
                     )),
               ),
@@ -209,8 +210,9 @@ class ContactPageTab extends StatelessWidget {
                           size: 40,
                         ),
                         onPressed: () {
-                          js.context.callMethod("open",
-                              ["https://www.linkedin.com/in/naveenjujaray"]);
+                          js.context.callMethod("open", [
+                            "https://www.linkedin.com/in/mohammed-alojile-708a36100/"
+                          ]);
                         },
                       )),
                 ),
@@ -225,7 +227,7 @@ class ContactPageTab extends StatelessWidget {
                         ),
                         onPressed: () {
                           js.context.callMethod(
-                              "open", ["https://www.github.com/naveenjujaray"]);
+                              "open", ["https://github.com/mohammednalogly"]);
                         },
                       )),
                 ),
@@ -239,8 +241,8 @@ class ContactPageTab extends StatelessWidget {
                           size: 40,
                         ),
                         onPressed: () {
-                          js.context.callMethod(
-                              "open", ["https://www.github.com/naveenjujaray"]);
+                          js.context.callMethod("open",
+                              ["https://www.instagram.com/mohammed_alojile/"]);
                         },
                       )),
                 ),
