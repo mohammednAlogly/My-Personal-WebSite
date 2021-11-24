@@ -60,7 +60,7 @@ class EduDesk extends StatelessWidget {
                     style: TextStyle(fontSize: 26, fontWeight: FontWeight.w600),
                   ),
                   Text(
-                    "2017 - 2021",
+                    "2019 - 2021",
                     style: TextStyle(
                       fontSize: 22,
                     ),
@@ -143,7 +143,7 @@ class EduTab extends StatelessWidget {
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
                   ),
                   Text(
-                    "2017 - 2021",
+                    "2019 - 2021",
                     style: TextStyle(
                       fontSize: 22,
                     ),
@@ -228,7 +228,7 @@ class EduMob extends StatelessWidget {
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                 ),
                 Text(
-                  "2017 - 2021",
+                  "2019 - 2021",
                   style: TextStyle(
                     fontSize: 17,
                   ),
