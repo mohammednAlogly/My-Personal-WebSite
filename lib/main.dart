@@ -21,14 +21,14 @@ class MyApp extends StatelessWidget {
       light: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.red,
-        accentColor: Colors.amber,
+        accentColor: Colors.yellow,
       ),
       dark: ThemeData(
         backgroundColor: Colors.black38,
         scaffoldBackgroundColor: Colors.black38,
         brightness: Brightness.dark,
         primarySwatch: Colors.red,
-        accentColor: Colors.amber,
+        accentColor: Colors.yellow,
       ),
       initial: savedThemeMode ?? AdaptiveThemeMode.light,
       builder: (theme, darkTheme) => MaterialApp(

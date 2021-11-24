@@ -120,34 +120,6 @@ class WelcomePageDesk extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
-                width: 50,
-              ),
-              Expanded(
-                child: GestureDetector(
-                  onTap: () {
-                    js.context.callMethod("open", [
-                      "https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"
-                    ]);
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 40, vertical: 15),
-                    child: Text(
-                      'SEE MY RESUME',
-                      style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black,
-                          fontFamily: 'Kadisoka'),
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.yellow,
-                      borderRadius: BorderRadius.circular(5),
-                    ),
-                  ),
-                ),
-              ),
             ],
           ),
         ],
@@ -275,32 +247,6 @@ class WelcomePageTab extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(
-                  width: 20,
-                ),
-                GestureDetector(
-                  onTap: () {
-                    js.context.callMethod("open", [
-                      "https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"
-                    ]);
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 30, vertical: 10),
-                    child: Text(
-                      'SEE MY RESUME',
-                      style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black,
-                          fontFamily: 'Kadisoka'),
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.yellow,
-                      borderRadius: BorderRadius.circular(5),
-                    ),
-                  ),
-                ),
               ],
             ),
           ],
@@ -414,39 +360,6 @@ class WelcomePageMob extends StatelessWidget {
                         style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: Colors.black,
-                            fontFamily: 'Kadisoka'),
-                      ),
-                      decoration: BoxDecoration(
-                        color: Colors.yellow,
-                        borderRadius: BorderRadius.circular(5),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Center(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      js.context.callMethod("open", [
-                        "https://drive.google.com/file/d/1PZYWMJEQMLIh5g5mXnENQcOL1vlunq6_/view?usp=sharing"
-                      ]);
-                    },
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 15, vertical: 10),
-                      child: Text(
-                        'SEE MY RESUME',
-                        style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w900,
                             color: Colors.black,
                             fontFamily: 'Kadisoka'),
                       ),
